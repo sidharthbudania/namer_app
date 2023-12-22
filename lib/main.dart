@@ -116,13 +116,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
       floatingActionButton: SizedBox(
-        width: 50, // Width of the FloatingActionButton
-        height: 50, // Height of the FloatingActionButton
+        width: 50, 
+        height: 50, 
         child: FloatingActionButton(
           child: Icon(Icons.account_circle_outlined),
           backgroundColor: Color.fromARGB(255, 213, 219, 223),
           onPressed: () {
-            // Add functionality for the FloatingActionButton onPressed event
+           
             setState(() {
                Navigator.push(context, MaterialPageRoute(builder: (context)=>InfoPage()));
             });
@@ -310,8 +310,8 @@ Widget buildContent() => Container(
         children: [
           Row(
             children: [
-              Icon(Icons.person), // Icon for the name
-              SizedBox(width: 8), // Adjust spacing between icon and text
+              Icon(Icons.person), 
+              SizedBox(width: 8), 
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -319,7 +319,7 @@ Widget buildContent() => Container(
                     'Sidharth Budania',
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(height: 4), // Adjust vertical spacing between name and email
+                  SizedBox(height: 4), 
                   Text(
                     'sidharthb22@iitk.ac.in',
                     textHeightBehavior: TextHeightBehavior(
@@ -336,8 +336,8 @@ Widget buildContent() => Container(
           const SizedBox(height: 14),
           Row(
             children: [
-              Icon(Icons.perm_identity), // Icon for roll number
-              SizedBox(width: 8), // Adjust spacing between icon and text
+              Icon(Icons.perm_identity), 
+              SizedBox(width: 8),
               Text(
                 'Roll no: 221057',
                 style: TextStyle(fontSize: 18, height: 2),
@@ -347,8 +347,8 @@ Widget buildContent() => Container(
           ),
           Row(
             children: [
-              Icon(Icons.location_city), // Icon for city
-              SizedBox(width: 8), // Adjust spacing between icon and text
+              Icon(Icons.location_city), 
+              SizedBox(width: 8), 
               Text(
                 'City: Kanpur',
                 textHeightBehavior: TextHeightBehavior(

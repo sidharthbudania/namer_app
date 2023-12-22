@@ -1,7 +1,7 @@
 name: namer_app
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none' 
 
 version: 0.0.1+1
 
@@ -24,7 +24,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  flutter:
-  assets:
-  assests/Images/pepe.jpg
+
   
